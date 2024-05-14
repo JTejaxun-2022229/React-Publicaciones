@@ -34,7 +34,7 @@ const Register = () => {
   return (
     <>
       <div className="flex items-center justify-between px-6 md:px-[200px] py-4">
-        <h1 className="text-lg md:text-xl font-extrabold"><Link to="/">Blog</Link></h1>
+        <h1 className="text-lg md:text-xl font-extrabold"><Link to="/">Blog JTejaxun</Link></h1>
         <h3><Link to="/login">Iniciar Sesion</Link></h3>
       </div>
       <div className="w-full flex justify-center items-center h-[80vh] ">

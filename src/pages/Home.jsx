@@ -2,6 +2,7 @@ import axios from "axios"
 import Footer from "../components/Footer"
 import HomePosts from "../components/HomePosts"
 import Navbar from "../components/Navbar"
+import Header from "../components/Header"
 import { IF, URL } from "../url"
 import { useContext, useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
@@ -46,11 +47,16 @@ const Home = () => {
 
   }, [search])
 
-
+  const images = [
+    "../src/assets/image1.jpg",
+    "../src/assets/image2.jpg",
+    "../src/assets/image3.jpg",
+  ];
 
   return (
     <>
       <Navbar />
+      <Header images={images} interval={5000} />
       <div className="px-8 md:px-[200px] min-h-[80vh]">
         {loader ? <div className="h-[40vh] flex justify-center items-center"><Loader /></div> : !noResults ?
           posts.map((post) => (
