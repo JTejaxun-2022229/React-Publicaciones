@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="mt-8 w-full bg-black px-8 md:px-[100px] flex flex-col md:flex-row md:space-x-16 items-center justify-between text-sm md:text-md py-12">
         <div className="flex flex-col text-white items-center md:items-start md:w-1/3">
           <img
-            src="https://via.placeholder.com/200"
+            src="../src/assets/FotoYo.png"
             alt="Imagen de pie de página"
             className="w-48 h-48 md:w-64 md:h-96 object-cover"
           />

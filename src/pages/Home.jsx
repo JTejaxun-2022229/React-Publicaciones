@@ -48,9 +48,9 @@ const Home = () => {
   }, [search])
 
   const images = [
-    "../src/assets/image1.jpg",
-    "../src/assets/image2.jpg",
-    "../src/assets/image3.jpg",
+    "../src/assets/image1.png",
+    "../src/assets/image2.png",
+    "../src/assets/image3.png",
   ];
 
   return (
